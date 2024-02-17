@@ -2,3 +2,2298 @@ IMAGE FILES
 CODING DOCS
 OR CODE SCANNER 
 README FILES
+.vscode/launch.json
+
+		@@ -0,0 +1,15 @@
+		{
+		    // Use IntelliSense to learn about possible attributes.
+		    // Hover to view descriptions of existing attributes.
+		    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+		    "version": "0.2.0",
+		    "configurations": [
+		        {
+		            "type": "chrome",
+		            "request": "launch",
+		            "name": "Launch Chrome against localhost",
+		            "url": "http://localhost:8080",
+		            "webRoot": "${workspaceFolder}"
+		        }
+		    ]
+		} 
+Binary file added BIN +646 KB Dominos.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +575 KB aasife.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +1010 KB anand.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +879 KB anjappar.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +868 KB arabian.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +28.4 KB blur.jpg 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +62.9 KB burger.jpg 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +1.09 MB burma.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +1.39 MB cafe.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +19.1 KB food1.jpg 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +119 KB food2.jpg 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +47.9 KB food3.jpg 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +706 KB harris.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +1.66 MB image.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+229 changes: 229 additions & 0 deletions 229 index.css 
+ Show comments 
+Edit file Delete file 
+2]		@@ -0,0 +1,229 @@
+		* {
+		  box-sizing: border-box;
+		}
+		body {
+		  font-family: Verdana, sans-serif;
+		  margin: 0;
+		  background-color: rgb(57, 151, 129);
+		}
+		
+
+		section{
+		  margin-left: 140px;
+		  margin: 0 1.5% 28px 1.5%;
+		  float: left;
+		  width: 23%;
+		  border-radius: 2px;
+		  border: #808685;
+		  border-style:outset; 
+		  box-decoration-break: slice;
+		  background-color: #717171;
+		  border-radius: 310px;
+		  padding: 20px; 
+		  width: 370px;
+		  height: 140px;
+		}
+		section:hover{
+		  font-size: 25px;
+		  cursor: pointer;
+		}
+		
+
+		.button-62 {
+		  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+		  border: 0;
+		  border-radius: 12px;
+		  color: #FFFFFF;
+		  cursor: pointer;
+		  display: inline-block;
+		  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+		  font-size: 16px;
+		  font-weight: 500;
+		  line-height: 2.5;
+		  outline: transparent;
+		  padding: 0 1rem;
+		  text-align: center;
+		  text-decoration: none;
+		  transition: box-shadow .2s ease-in-out;
+		  user-select: none;
+		  -webkit-user-select: none;
+		  touch-action: manipulation;
+		  white-space: nowrap;
+		}
+		
+
+		.button-62:not([disabled]):focus {
+		  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+		}
+		
+
+		.button-62:not([disabled]):hover {
+		  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+		}
+		#map {
+		  position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  width: 80%;
+		  height: 85%;
+		  margin-left: 100px;
+		  margin-top: 80%;
+		}
+		#myForm{
+		  border: 2px solid rgb(0, 255, 195);
+		  border-radius: 30px;
+		  padding: 10px;
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  margin: 0 auto;
+		  max-width: 500px;
+		  font-family: Arial, sans-serif;
+		
+
+		}
+		.marker {
+		  display: block;
+		  border: none;
+		  border-radius: 50%;
+		  cursor: pointer;
+		  padding: 0;
+		}
+		.mySlides {
+		  display: none;
+		}
+		img {
+		  vertical-align: middle;
+		  height: 400px;
+		}
+		
+
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 1290px;
+		  position: relative;
+		  margin: auto;
+		  margin-left: 10px;
+		}
+		
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  padding: 16px;
+		  margin-top: -22px;
+		  color: white;
+		  font-weight: bold;
+		  font-size: 18px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		}
+		
+
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+		
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+		  background-color: rgba(0, 0, 0, 0.8);
+		}
+		
+
+		/* Caption text */
+		.text {
+		  color: #201515;
+		  font-size: 20px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  bottom: 8px;
+		  width: 100%;
+		  text-align: center;
+		  background-color: #bbb;
+		}
+		
+
+		/* Number text (1/3 etc) */
+		
+
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+		
+
+		.active,
+		.dot:hover {
+		  background-color: #717171;
+		}
+		
+
+		/* Fading animation */
+		.fade {
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+		
+
+		@keyframes fade {
+		  from {
+		    opacity: 0.4;
+		  }
+		  to {
+		    opacity: 1;
+		  }
+		}
+		
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		  .prev,
+		  .next,
+		  .text {
+		    font-size: 11px;
+		  }
+		}
+		
+
+		span {
+		  font-family: "Bebas Neue", cursive;
+		  font-size: 3em;
+		  position: absolute;
+		  top: 5%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  background-image: linear-gradient(gold, gold);
+		  background-size: 100% 10px;
+		  background-repeat: no-repeat;
+		  background-position: 100% 0%;
+		  transition: background-size 0.7s, background-position 0.5s ease-in-out;
+		}
+		
+
+		span:hover {
+		  background-size: 100% 100%;
+		  background-position: 0% 100%;
+		  transition: background-position 0.7s, background-size 0.5s ease-in-out;
+		}
+		p1 {
+		  margin-left: 310px;
+		  font-style: italic,bold;
+		  font-size: 180%;
+		}
+		p2{
+		  margin-left: 200px;
+		  position: center;
+		}
+		
+
+		
+
+		#image-list {
+		  margin-left: 70px;
+		  display: flex;
+		  flex-wrap: wrap;
+		  margin-top: 50%;
+		}
+		
+
+		#image-list img {
+		  margin: 10px;
+		  width: 200px;
+		  height: 200px;
+		}
+		
+
+292 changes: 292 additions & 0 deletions 292 index.html 
+ Show comments 
+Edit file Delete file 
+		@@ -0,0 +1,292 @@
+		<!DOCTYPE html>
+		<html>
+		  <head>
+		    <meta charset="utf-8" />
+		    <title>MealOnTravel</title>
+		    <meta
+		      name="viewport"
+		      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+		    />
+		    <link
+		      href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
+		      rel="stylesheet"
+		    />
+		    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+		    <link href="index.css" rel="stylesheet" />
+		  </head>
+		  <body>
+		    <br /><br />
+		    <span>MealOnTravel</span><br /><br /><br />
+		    <section>
+		      <code style="font-size: 15px;color: aliceblue;">
+		       <b>S</b>can the QR code which is embedded in <br>
+		        bus ticket so that you can navigate to <br>
+		        home through the browser in mobile and<br>
+		        able to see the MealOnTravel website
+		      </code>
+		    </section>
+		    <section>
+		      <code style="font-size: 15px;color: aliceblue;">
+		        <b>E</b>nter the two locations between your<br>
+		        source and destination , so that <br>
+		        the hotels located between those places<br>
+		        are listed out along with a map
+		      </code>
+		    </section>
+		    <section>
+		      <code style="font-size: 15px;color: aliceblue;">
+		        <b>C</b>lick the hotel that you want to<br>
+		        get food from , add your desired items<br>
+		        into the cart . Place the order and<br>
+		        proceed to payment
+		      </code>
+		    </section>
+		    <br /><br />
+		    <div class="slideshow-container">
+		      <div class="mySlides fade">
+		        <img src="food1.jpg" style="width: 100%" />
+		        <div class="text">Just Scan the QR code</div>
+		      </div>
+		
+
+		      <div class="mySlides fade">
+		        <img src="food2.jpg" style="width: 100%" />
+		        <div class="text">Get your food quicker</div>
+		      </div>
+		
+
+		      <div class="mySlides fade">
+		        <img src="food3.jpg" style="width: 100%" />
+		        <div class="text">Enjoy the snacks</div>
+		      </div>
+		
+
+		      <a class="prev" onclick="plusSlides(-1)">❮</a>
+		      <a class="next" onclick="plusSlides(1)">❯</a>
+		    </div>
+		    <br />
+		
+
+		    <div style="text-align: center">
+		      <span class="dot" onclick="currentSlide(1)"></span>
+		      <span class="dot" onclick="currentSlide(2)"></span>
+		      <span class="dot" onclick="currentSlide(3)"></span>
+		    </div>
+		    <br /><br /><br />
+		    <form id="myForm">
+		      <label for="location1">Source:</label><br>
+		      <input type="text" id="location1" />
+		      <br />
+		      <label for="location2">Destination: </label><br>
+		      <input type="text" id="location2" />
+		      <br />
+		      <button type="button" class="button-62" onclick="validate()">Search</button>
+		    </form>
+		
+
+		    <div id="map"></div>
+		    <div id="image-list"></div>
+		    <script>
+		      function showMap() {
+		        // Create a new map
+		        mapboxgl.accessToken =
+		          "pk.eyJ1Ijoic3dldGhhazEwMDIiLCJhIjoiY2xmZTdjbmg5MGpxMDN6bnprMWw2YXVyeiJ9.c0lPcmCMLbeHetWR6f7TTA";
+		        var map = new mapboxgl.Map({
+		          container: "map",
+		          style: "mapbox://styles/mapbox/streets-v11",
+		        });
+		
+
+		        var location1 = document.getElementById("location1").value;
+		        var location2 = document.getElementById("location2").value;
+		
+
+		        // Use Mapbox Geocoding API to get the coordinates of the locations
+		        var geocodingUrl =
+		          "https://api.mapbox.com/geocoding/v5/mapbox.places/" +
+		          location1 +
+		          ".json?access_token=" +
+		          mapboxgl.accessToken;
+		        fetch(geocodingUrl)
+		          .then((response) => response.json())
+		          .then((data) => {
+		            var location1Coords = data.features[0].center;
+		            // Center the map on location 1
+		            map.setCenter(location1Coords);
+		            // Add a marker for location 1
+		            new mapboxgl.Marker().setLngLat(location1Coords).addTo(map);
+		
+
+		            geocodingUrl =
+		              "https://api.mapbox.com/geocoding/v5/mapbox.places/" +
+		              location2 +
+		              ".json?access_token=" +
+		              mapboxgl.accessToken;
+		            fetch(geocodingUrl)
+		              .then((response) => response.json())
+		              .then((data) => {
+		                var location2Coords = data.features[0].center;
+		                // Add a marker for location 2
+		                new mapboxgl.Marker().setLngLat(location2Coords).addTo(map);
+		
+
+		                // Zoom and pan the map to show both markers
+		                var bounds = new mapboxgl.LngLatBounds();
+		                bounds.extend(location1Coords);
+		                bounds.extend(location2Coords);
+		                map.fitBounds(bounds);
+		              });
+		          })
+		          .catch((error) => {
+		            console.log(error);
+		          });
+		      }
+		
+
+		      let slideIndex = 1;
+		      showSlides(slideIndex);
+		
+
+		      function plusSlides(n) {
+		        showSlides((slideIndex += n));
+		      }
+		
+
+		      function currentSlide(n) {
+		        showSlides((slideIndex = n));
+		      }
+		
+
+		      function showSlides(n) {
+		        let i;
+		        let slides = document.getElementsByClassName("mySlides");
+		        let dots = document.getElementsByClassName("dot");
+		        if (n > slides.length) {
+		          slideIndex = 1;
+		        }
+		        if (n < 1) {
+		          slideIndex = slides.length;
+		        }
+		        for (i = 0; i < slides.length; i++) {
+		          slides[i].style.display = "none";
+		        }
+		        for (i = 0; i < dots.length; i++) {
+		          dots[i].className = dots[i].className.replace(" active", "");
+		        }
+		        slides[slideIndex - 1].style.display = "block";
+		        dots[slideIndex - 1].className += " active";
+		      }
+		      function validate() {
+		  const location1 = document.getElementById("location1").value;
+		  const location2 = document.getElementById("location2").value;
+		
+
+		  if (location1 === "" || location2 === "") {
+		    alert("Please fill in all fields.");
+		    return false;
+		  } else if (location1 === "madurai" || location2 === "virudhunagar"){
+		    showMap();displayno();
+		  }
+		  else if (location1 === "tirunelveli" || location2 === "tuticorin"){
+		    showMap();displaytt();
+		  }
+		  else if (location1 === "chennai" || location2 === "kanchipuram"){
+		    showMap();displayck();
+		  }
+		
+
+		  else{
+		    showMap();displayImages();
+		  }
+		}
+		function displayck() {
+		        const images = [
+		        { src: "cafe.png", href: "menu2.html" },
+		          { src: "Dominos.png", href: "menu2.html" },
+		          { src: "harris.png", href: "menu.html" },
+		          { src: "kfc.png", href: "menu2.html" },
+		
+
+		          { src: "saravana.png", href: "menunil.html" },
+		
+
+		        ];
+		
+
+		        const imageList = document.getElementById("image-list");
+		        imageList.innerHTML = "";
+		
+
+		        images.forEach((image) => {
+		          const img = document.createElement("img");
+		          img.src = image.src;
+		          img.onclick = () => {
+		            window.location.href = image.href;
+		          };
+		
+
+		          imageList.appendChild(img);
+		        });
+		      }
+		function displaytt() {
+		        const images = [
+		          { src: "thaj.png", href: "menu1.html" },
+		
+
+		          { src: "aasife.png", href: "menu.html" },
+		          { src: "anand.png", href: "menu.html" },
+		          { src: "saravana.png", href: "menunil.html" },
+		          { src: "vairamaligai.png", href: "menu.html" },
+		
+
+		        ];
+		
+
+		        const imageList = document.getElementById("image-list");
+		        imageList.innerHTML = "";
+		
+
+		        images.forEach((image) => {
+		          const img = document.createElement("img");
+		          img.src = image.src;
+		          img.onclick = () => {
+		            window.location.href = image.href;
+		          };
+		
+
+		          imageList.appendChild(img);
+		        });
+		      }
+		function displayno() {
+		        const images = [
+		        { src: "zhawarma.png", href: "menunil.html" },
+		          { src: "thaj.png", href: "menu1.html" },
+		          { src: "prince.png", href: "menu.html" },
+		          { src: "aasife.png", href: "menu.html" },
+		          { src: "anand.png", href: "menu.html" },
+		
+
+		        ];
+		
+
+		        const imageList = document.getElementById("image-list");
+		        imageList.innerHTML = "";
+		
+
+		        images.forEach((image) => {
+		          const img = document.createElement("img");
+		          img.src = image.src;
+		          img.onclick = () => {
+		            window.location.href = image.href;
+		          };
+		
+
+		          imageList.appendChild(img);
+		        });
+		      }
+		      function displayImages() {
+		        const images = [
+		          { src: "thaj.png", href: "menu1.html" },
+		          { src: "prince.png", href: "menu.html" },
+		          { src: "aasife.png", href: "menu.html" },
+		          { src: "anand.png", href: "menu.html" },
+		          { src: "anjappar.png", href: "menu.html" },
+		          { src: "arabian.png", href: "menu1.html" },
+		          { src: "burma.png", href: "menu.html" },
+		          { src: "cafe.png", href: "menu2.html" },
+		          { src: "Dominos.png", href: "menu2.html" },
+		          { src: "harris.png", href: "menu.html" },
+		          { src: "kfc.png", href: "menu2.html" },
+		          { src: "thaj.png", href: "menu1.html" },
+		          { src: "saravana.png", href: "menunil.html" },
+		          { src: "vairamaligai.png", href: "menu.html" },
+		          { src: "zhawarma.png", href: "menunil.html" },
+		        ];
+		
+
+		        const imageList = document.getElementById("image-list");
+		        imageList.innerHTML = "";
+		
+
+		        images.forEach((image) => {
+		          const img = document.createElement("img");
+		          img.src = image.src;
+		          img.onclick = () => {
+		            window.location.href = image.href;
+		          };
+		
+
+		          imageList.appendChild(img);
+		        });
+		      }
+		    </script>
+		  </body>
+		</html>
+		@@ -0,0 +1,192 @@
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Document</title>
+			<style>
+				body{
+					background-color: rgb(109, 109, 109);
+				}
+				/* Main container */
+		#hello {
+		  background-color: #f7f4f4;
+		  border-radius: 10px;
+		  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		  padding: 20px;
+		  margin: 50px auto;
+		  max-width: 400px;
+		}
+		
+
+		/* Title */
+		h1 {
+		  text-align: center;
+		  margin-top: 0;
+		}
+		
+
+		/* Form */
+		form.login {
+		  display: flex;
+		  flex-direction: column;
+		}
+		
+
+		/* Form inputs */
+		form.login input[type="text"],
+		form.login input[type="password"] {
+		  background-color: #f8f8f8;
+		  border: none;
+		  border-radius: 4px;
+		  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+		  padding: 10px;
+		  margin-bottom: 20px;
+		  font-size: 16px;
+		}
+		
+
+		/* Remember me checkbox */
+		#check {
+		  display: flex;
+		  align-items: center;
+		  margin-bottom: 20px;
+		}
+		
+
+		#check input[type="checkbox"] {
+		  margin-right: 10px;
+		}
+		
+
+		/* Submit button */
+		form.login input[type="submit"] {
+		  background-color: #4CAF50;
+		  color: #fff;
+		  border: none;
+		  border-radius: 4px;
+		  padding: 10px;
+		  font-size: 16px;
+		  cursor: pointer;
+		}
+		
+
+		form.login input[type="submit"]:hover {
+		  background-color: #3e8e41;
+		}
+		
+
+		/* New user link */
+		#new {
+		  margin-top: 20px;
+		  text-align: center;
+		}
+		
+
+		#new a {
+		  color: #4CAF50;
+		}
+		
+
+			</style>
+		</head>
+		<body>
+			<h1>LOGIN</h1>
+			<div id="hello">
+		
+
+			<form class="login" name="loginForm" onsubmit="return validateLoginForm()" method="POST">
+				<input type="text" name="name" id="logName" placeholder="Username"><br>
+				<input type="password" name="password" id="logPassword" placeholder="Password"><br>
+				<div id="check">
+					<input type="checkbox" onclick="myFunction()">Show Password
+				</div>
+				<br><br>
+				<input type="submit" value="Login">
+				<div id="new">
+					<h5>New User <a href="signup.html"> Register Here !</a></h5>
+				</div>
+		
+
+			</form>
+		
+
+		</div>
+			<div id="errorMsg"></div>
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script>
+			function myFunction() {
+		  var x = document.getElementById("logPassword");
+		  if (x.type === "password") {
+		    x.type = "text";
+		  } else {
+		    x.type = "password";
+		  }
+		}
+			$(window).on("hashchange", function () {
+			if (location.hash.slice(1) == "signup") {
+				$(".page").addClass("extend");
+				$("#login").removeClass("active");
+				$("#signup").addClass("active");
+			} else {
+				$(".page").removeClass("extend");
+				$("#login").addClass("active");
+				$("#signup").removeClass("active");
+			}
+		});
+		$(window).trigger("hashchange");
+		
+
+		function validateLoginForm() {
+			var name = document.getElementById("logName").value;
+			var password = document.getElementById("logPassword").value;
+		
+
+			if (name == "" || password == "") {
+			  document.getElementById("errorMsg").innerHTML = "Please fill the required fields";
+			  return false;
+			} else if (password.length < 8) {
+			  document.getElementById("errorMsg").innerHTML = "Your password must include at least 8 characters";
+			  return false;
+			} else {
+			  fetch("https://meal-89fd5-default-rtdb.asia-southeast1.firebasedatabase.app/users.json", {
+				method: "GET"
+			  })
+				.then((response) => response.json())
+				.then((data) => {
+				  var users = Object.values(data); // convert data to array of user objects
+				  var foundUser = users.find((user) => user.name == name && user.password == password);
+				  if (foundUser) {
+					window.location.href = "index.html"; // redirect to search page
+				  } else {
+					document.getElementById("errorMsg").innerHTML = "Invalid username or password";
+				  }
+				})
+				.catch((error) => console.error(error));
+			  return false;
+			}
+		  }
+		
+
+		
+
+		function storeuserinfo() {
+			let email = document.getElementById("signEmail").value;
+			let name = document.getElementById("signName").value;
+			let password = document.getElementById("signPassword").value;
+			// Construct the data to send in the POST request
+			let data = {
+			  name: name,
+			  email:email,
+			  password:password
+			};
+			// Make the POST request with fetch
+			fetch(
+			  "https://meal-89fd5-default-rtdb.asia-southeast1.firebasedatabase.app/users.json",
+			  {
+				method: "POST",
+				body: JSON.stringify(data),
+			  }
+			)
+			  .then((response) => response.json())
+			  .then((data) => console.log(data))
+			  .catch((error) => console.error(error));
+		  }
+		
+
+		  function fetchUserData() {
+			fetch("https://meal-89fd5-default-rtdb.asia-southeast1.firebasedatabase.app/users.json", {
+			  method: "GET"
+			})
+			  .then((response) => response.json())
+			  .then((data) => console.log(data))
+			  .catch((error) => console.error(error));
+		  }
+		
+
+		</script>
+		</body>
+		</html> 
+183 changes: 183 additions & 0 deletions 183 menu.html 
+ Show comments 
+Edit file Delete file 
+		@@ -0,0 +1,183 @@
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		    <meta charset="UTF-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <title>Document</title>
+		
+
+		    <script>
+		function calculateTotal() {
+		  // get the input values
+		  const vada = parseInt(document.getElementById("vada").value);
+		  const idly = parseInt(document.getElementById("idly").value);
+		  const dosa = parseInt(document.getElementById("dosa").value);
+		  const meals = parseInt(document.getElementById("meals").value);
+		  const veg_bri = parseInt(document.getElementById("veg_bri").value);
+		  const mutton_bri = parseInt(document.getElementById("mutton_bri").value);
+		  const chicken_bri = parseInt(document.getElementById("chicken_bri").value);
+		  const egg_bri = parseInt(document.getElementById("egg_bri").value);
+		  const tandoori = parseInt(document.getElementById("tandoori").value);
+		  const panneer = parseInt(document.getElementById("panneer").value);
+		
+
+		  // calculate the total
+		  const total = vada*5 + idly*8 + dosa*45 + meals*70 + veg_bri*100 + mutton_bri*150 + chicken_bri*120
+		                + egg_bri*110 + tandoori*220 + panneer*175;
+		
+
+		  // display the total
+		  if (total === 0) {
+		    const snackbar = document.getElementById("snackbar");
+		    snackbar.innerHTML = "Please add items to your cart";
+		    snackbar.className = "show";
+		    setTimeout(function() { snackbar.className = snackbar.className.replace("show", ""); }, 9000);
+		    } else {
+		      document.getElementById("total").innerHTML = "Total: Rs." + total;
+		      window.location.href = "pay.html?total=" + total;
+		    }
+		
+
+		
+
+		}
+		
+
+		
+
+		    </script>
+		    <style>
+		      body {
+		            font-family: Arial, sans-serif;
+		            background-color: #bbe8f0;
+		        }
+		
+
+		        h2 {
+		            color: #333;
+		            text-align: center;
+		        }
+		
+
+		        #menu {
+		            background-color: #e4f4fb;
+		            border: 1px solid #1f4fef;
+		            padding: 20px;
+		            max-width: 600px;
+		            margin: 0 auto;
+		        }
+		
+
+		        .item {
+		            margin-bottom: 20px;
+		        }
+		
+
+		        p {
+		            margin: 0;
+		            padding: 0;
+		            font-size: 16px;
+		        }
+		
+
+		        input[type="number"] {
+		            width: 60px;
+		            height: 30px;
+		            font-size: 16px;
+		            margin-left: 10px;
+		            border-radius: 5px;
+		            border: 1px solid #ccc;
+		            padding: 0 10px;
+		        }
+		
+
+		        button {
+		            background-color: #2bc62b;
+		            color: #fff;
+		            padding: 10px 20px;
+		            border: none;
+		            border-radius: 5px;
+		            cursor: pointer;
+		            margin-top: 20px;
+		            font-size: 16px;
+		        }
+		
+
+		        button:hover {
+		            background-color: #24bd2c;
+		        }
+		
+
+		        #total {
+		            margin-top: 20px;
+		            font-size: 20px;
+		            font-weight: bold;
+		        }
+		        #snackbar {
+		  visibility: hidden;
+		  min-width: 250px;
+		  margin-left: -125px;
+		  background-color: #333;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 2px;
+		  padding: 16px;
+		  position: fixed;
+		  z-index: 1;
+		  left: 50%;
+		  bottom: 30px;
+		  font-size: 17px;
+		}
+		
+
+		#snackbar.show {
+		  visibility: visible;
+		  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		}
+		
+
+		@-webkit-keyframes fadein {
+		  from {bottom: 0; opacity: 0;} 
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@keyframes fadein {
+		  from {bottom: 0; opacity: 0;}
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@-webkit-keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;} 
+		  to {bottom: 0; opacity: 0;}
+		}
+		
+
+		@keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;}
+		  to {bottom: 0; opacity: 0;}
+		}
+		</style>
+		
+
+		</head>
+		<body>
+		    <h2>Menu</h2>
+		    <div id="menu">
+		      <div class="item">
+		        <p>Vada &#127849- Rs.5</p>
+		        <input type="number" min="0" id="vada" value="0" style="width: 3em">
+		        <br>
+		        <p>Omlette &#127859 - Rs.8</p>
+		        <input type="number" min="0" id="idly" value="0" style="width: 3em">
+		        <br>
+		        <p>Dosa &#127845- Rs.45</p>
+		        <input type="number" min="0" id="dosa" value="0" style="width: 3em">
+		        <br>
+		        <p>Tea &#9749 - Rs.20</p>
+		        <input type="number" min="0" id="meals" value="0" style="width: 3em">
+		        <br>
+		        <p>Veg Briyani &#127836- Rs.100</p>
+		        <input type="number" min="0" id="veg_bri" value="0" style="width: 3em">
+		        <br>
+		        <p>Mutton Briyani &#127834- Rs.150</p>
+		        <input type="number" min="0" id="mutton_bri" value="0" style="width: 3em">
+		        <p>Chicken Briyani &#127834	- Rs.120</p>
+		        <input type="number" min="0" id="chicken_bri" value="0" style="width: 3em">
+		        <p>Egg Briyani &#127836- Rs.110</p>
+		        <input type="number" min="0" id="egg_bri" value="0" style="width: 3em">
+		        <p>Chicken Tandoori &#127831- Rs.220</p>
+		        <input type="number" min="0" id="tandoori" value="0" style="width: 3em">
+		        <p>Paneer Tandoori &#127830- Rs.175</p>
+		        <input type="number" min="0" id="panneer" value="0" style="width: 3em">
+		      </div>
+		      <div id="snackbar"></div>
+		      <button onclick="calculateTotal()">Proceed to payment</button>
+		      <p id="total">Total: Rs.0</p>
+		      <!-- <button id="place"  onclick="location.href = 'pay.html';">Place Order</button> -->
+		    </div>
+		
+
+		</body>
+		</html> 
+228 changes: 228 additions & 0 deletions 228 menu1.html 
+ Show comments 
+Edit file Delete file 
+		@@ -0,0 +1,228 @@
+		<!DOCTYPE html>
+		<html lang="en">
+		  <head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <title>Document</title>
+		
+
+		    <script>
+		      function calculateTotal() {
+		        // get the input values
+		        const vada = parseInt(document.getElementById("vada").value);
+		        const idly = parseInt(document.getElementById("idly").value);
+		        const dosa = parseInt(document.getElementById("dosa").value);
+		        const meals = parseInt(document.getElementById("meals").value);
+		        const veg_bri = parseInt(document.getElementById("veg_bri").value);
+		        const mutton_bri = parseInt(
+		          document.getElementById("mutton_bri").value
+		        );
+		        const chicken_bri = parseInt(
+		          document.getElementById("chicken_bri").value
+		        );
+		        const egg_bri = parseInt(document.getElementById("egg_bri").value);
+		        const tandoori = parseInt(document.getElementById("tandoori").value);
+		        const panneer = parseInt(document.getElementById("panneer").value);
+		
+
+		        // calculate the total
+		        const total =
+		          vada * 190 +
+		          idly * 185 +
+		          dosa * 145 +
+		          meals * 70 +
+		          veg_bri * 100 +
+		          mutton_bri * 15 +
+		          chicken_bri * 120 +
+		          egg_bri * 210 +
+		          tandoori * 120 +
+		          panneer * 175;
+		
+
+		        // display the total
+		        // document.getElementById("total").innerHTML = "Total: Rs." + total;
+		        // window.location.href = "pay.html?total=" + total;
+		        if (total === 0) {
+		          const snackbar = document.getElementById("snackbar");
+		    snackbar.innerHTML = "Please add items to your cart";
+		    snackbar.className = "show";
+		    setTimeout(function() { snackbar.className = snackbar.className.replace("show", ""); }, 9000);
+		    } else {
+		      document.getElementById("total").innerHTML = "Total: Rs." + total;
+		      window.location.href = "pay.html?total=" + total;
+		    }
+		      }
+		    </script>
+		    <style>
+		        body {
+		            font-family: Arial, sans-serif;
+		            background-color: #bbe8f0;
+		        }
+		
+
+		        h2 {
+		            color: #333;
+		            text-align: center;
+		        }
+		
+
+		        #menu {
+		            background-color: #e4f4fb;
+		            border: 1px solid #1f4fef;
+		            padding: 20px;
+		            max-width: 600px;
+		            margin: 0 auto;
+		        }
+		        .item {
+		            margin-bottom: 20px;
+		        }
+		
+
+		        p {
+		            margin: 0;
+		            padding: 0;
+		            font-size: 16px;
+		        }
+		
+
+		        input[type="number"] {
+		            width: 60px;
+		            height: 30px;
+		            font-size: 16px;
+		            margin-left: 10px;
+		            border-radius: 5px;
+		            border: 1px solid #ccc;
+		            padding: 0 10px;
+		        }
+		
+
+		        button {
+		            background-color: #42b91e;
+		            color: #fff;
+		            padding: 10px 20px;
+		            border: none;
+		            border-radius: 5px;
+		            cursor: pointer;
+		            margin-top: 20px;
+		            font-size: 16px;
+		        }
+		
+
+		        button:hover {
+		            background-color: #16bc1e;
+		        }
+		
+
+		        #total {
+		            margin-top: 20px;
+		            font-size: 20px;
+		            font-weight: bold;
+		        }
+		        #snackbar {
+		  visibility: hidden;
+		  min-width: 250px;
+		  margin-left: -125px;
+		  background-color: #333;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 2px;
+		  padding: 16px;
+		  position: fixed;
+		  z-index: 1;
+		  left: 50%;
+		  bottom: 30px;
+		  font-size: 17px;
+		}
+		
+
+		#snackbar.show {
+		  visibility: visible;
+		  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		}
+		
+
+		@-webkit-keyframes fadein {
+		  from {bottom: 0; opacity: 0;} 
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@keyframes fadein {
+		  from {bottom: 0; opacity: 0;}
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@-webkit-keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;} 
+		  to {bottom: 0; opacity: 0;}
+		}
+		
+
+		@keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;}
+		  to {bottom: 0; opacity: 0;}
+		}
+		
+
+		    </style>
+		  </head>
+		  <body>
+		    <h2>Menu</h2>
+		    <div id="menu">
+		      <div class="item">
+		        <p>Veg Pizza  &#127829- Rs.190</p>
+		        <input type="number" min="0" id="vada" value="0" style="width: 3em" />
+		        <br />
+		        <p>Arabatta Pasta &#127835	 - Rs.180</p>
+		        <input type="number" min="0" id="idly" value="0" style="width: 3em" />
+		        <br />
+		        <p>White sauce pasta &#127835- Rs.145</p>
+		        <input type="number" min="0" id="dosa" value="0" style="width: 3em" />
+		        <br />
+		        <p>Veg Sandwich &#127790- Rs.70</p>
+		        <input type="number" min="0" id="meals" value="0" style="width: 3em" />
+		        <br />
+		        <p>Veg Burger &#127828	- Rs.100</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="veg_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <br />
+		        <p>Bread &#127838	- Rs.15</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="mutton_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Chicken Momos &#127850 - Rs.120</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="chicken_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Chicken Pizza  &#127829- Rs.210</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="egg_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Chicken Burger &#127828	- Rs.120</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="tandoori"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Paneer Pizza  &#127829- Rs.175</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="panneer"
+		          value="0"
+		          style="width: 3em"
+		        />
+		      </div>
+		      <div id="snackbar"></div>
+		      <button onclick="calculateTotal()">Proceed to payment</button>
+		      <p id="total">Total: Rs.0</p>
+		      <!-- <button id="place" onclick="location.href = 'pay.html';">Place Order</button> -->
+		    </div>
+		  </body>
+		</html>
+		@@ -0,0 +1,226 @@
+		<!DOCTYPE html>
+		<html lang="en">
+		  <head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <title>Document</title>
+		
+
+		    <script>
+		      function calculateTotal() {
+		        // get the input values
+		        const vada = parseInt(document.getElementById("vada").value);
+		        const idly = parseInt(document.getElementById("idly").value);
+		        const dosa = parseInt(document.getElementById("dosa").value);
+		        const meals = parseInt(document.getElementById("meals").value);
+		        const veg_bri = parseInt(document.getElementById("veg_bri").value);
+		        const mutton_bri = parseInt(
+		          document.getElementById("mutton_bri").value
+		        );
+		        const chicken_bri = parseInt(
+		          document.getElementById("chicken_bri").value
+		        );
+		        const egg_bri = parseInt(document.getElementById("egg_bri").value);
+		        const tandoori = parseInt(document.getElementById("tandoori").value);
+		        const panneer = parseInt(document.getElementById("panneer").value);
+		
+
+		        // calculate the total
+		        const total =
+		          vada * 290 +
+		          idly * 180 +
+		          dosa * 145 +
+		          meals * 170 +
+		          veg_bri * 150 +
+		          mutton_bri * 115 +
+		          chicken_bri * 120 +
+		          egg_bri * 210 +
+		          tandoori * 120 +
+		          panneer * 75;
+		
+
+		          if (total === 0) {
+		            const snackbar = document.getElementById("snackbar");
+		    snackbar.innerHTML = "Please add items to your cart";
+		    snackbar.className = "show";
+		    setTimeout(function() { snackbar.className = snackbar.className.replace("show", ""); }, 9000);
+		    } else {
+		      document.getElementById("total").innerHTML = "Total: Rs." + total;
+		      window.location.href = "pay.html?total=" + total;
+		    }
+		      }
+		    </script>
+		    <style>
+		        body {
+		            font-family: Arial, sans-serif;
+		            background-color: #bbe8f0;
+		        }
+		
+
+		        h2 {
+		            color: #333;
+		            text-align: center;
+		        }
+		
+
+		        #menu {
+		            background-color: #e4f4fb;
+		            border: 1px solid #1f4fef;
+		            padding: 20px;
+		            max-width: 600px;
+		            margin: 0 auto;
+		        }
+		
+
+		        .item {
+		            margin-bottom: 20px;
+		        }
+		
+
+		        p {
+		            margin: 0;
+		            padding: 0;
+		            font-size: 16px;
+		        }
+		
+
+		        input[type="number"] {
+		            width: 60px;
+		            height: 30px;
+		            font-size: 16px;
+		            margin-left: 10px;
+		            border-radius: 5px;
+		            border: 1px solid #ccc;
+		            padding: 0 10px;
+		        }
+		
+
+		        button {
+		            background-color: #21c926;
+		            color: #fff;
+		            padding: 10px 20px;
+		            border: none;
+		            border-radius: 5px;
+		            cursor: pointer;
+		            margin-top: 20px;
+		            font-size: 16px;
+		        }
+		
+
+		        button:hover {
+		            background-color: #1bc213;
+		        }
+		
+
+		        #total {
+		            margin-top: 20px;
+		            font-size: 20px;
+		            font-weight: bold;
+		        }
+		        #snackbar {
+		  visibility: hidden;
+		  min-width: 250px;
+		  margin-left: -125px;
+		  background-color: #333;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 2px;
+		  padding: 16px;
+		  position: fixed;
+		  z-index: 1;
+		  left: 50%;
+		  bottom: 30px;
+		  font-size: 17px;
+		}
+		
+
+		#snackbar.show {
+		  visibility: visible;
+		  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		}
+		
+
+		@-webkit-keyframes fadein {
+		  from {bottom: 0; opacity: 0;} 
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@keyframes fadein {
+		  from {bottom: 0; opacity: 0;}
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@-webkit-keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;} 
+		  to {bottom: 0; opacity: 0;}
+		}
+		
+
+		@keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;}
+		  to {bottom: 0; opacity: 0;}
+		}
+		
+
+		    </style>
+		  </head>
+		  <body>
+		    <h2>Menu</h2>
+		    <div id="menu">
+		      <div class="item">
+		        <p>Crispy fried wings &#127843- Rs.290</p>
+		        <input type="number" min="0" id="vada" value="0" style="width: 3em" />
+		        <br />
+		        <p>Fried Chicken &#127831- Rs.180</p>
+		        <input type="number" min="0" id="idly" value="0" style="width: 3em" />
+		        <br />
+		        <p>Choco lava cake &#127856	- Rs.145</p>
+		        <input type="number" min="0" id="dosa" value="0" style="width: 3em" />
+		        <br />
+		        <p>Red velvet lava cake &#127854- Rs.170</p>
+		        <input type="number" min="0" id="meals" value="0" style="width: 3em" />
+		        <br />
+		        <p>Brownie with ice cream &#127848- Rs.150</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="veg_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <br />
+		        <p>French Fries &#127839	- Rs.115</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="mutton_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Cheesy fries &#127839- Rs.120</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="chicken_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Chicken Pizza &#127829 - Rs.210</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="egg_bri"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Chicken Burger &#127828	- Rs.120</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="tandoori"
+		          value="0"
+		          style="width: 3em"
+		        />
+		        <p>Cococola &#127863- Rs.75</p>
+		        <input
+		          type="number"
+		          min="0"
+		          id="panneer"
+		          value="0"
+		          style="width: 3em"
+		        />
+		      </div>
+		      <div id="snackbar"></div>
+		      <button onclick="calculateTotal()">Proceed to payment</button>
+		      <p id="total">Total: Rs.0</p>
+		      <!-- <button id="place" onclick="location.href = 'pay.html';">Place Order</button> -->
+		    </div>
+		  </body>
+		</html>
+ 
+		@@ -0,0 +1,38 @@
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		    <meta charset="UTF-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <title>Document</title>
+		    <style>
+		        body{
+		            font-family: Arial, sans-serif;
+		        margin: 0;
+		        padding: 0;
+		        background-image:url(menunil.jpg);
+		
+
+		        }
+		        .up{
+		            position: centre;
+		            margin-top: 20%;
+		            font-display: auto;
+		            font-size: 190%;
+		            background-color: rgb(174, 146, 111);
+		            background-size: cover;
+		            position:relative;
+		
+
+		
+
+		        }
+		        p{
+		            margin-left:400px;
+		        }
+		    </style>
+		</head>
+		<body>
+		    <div class="up">
+		        <p>Sorry!!WE DONT DELIVER THROUGH ONLINE</p>
+		    </div>
+		    <span style='font-size:100px;margin-left: 590px;'>&#128529;</span>
+		</body>
+		</html> 
+ 
+		@@ -0,0 +1,125 @@
+		/* general styles */
+		body {
+		  font-family: Arial, sans-serif;
+		  background-color: #f5f5f5;
+		}
+		
+
+		h2 {
+		  font-size: 24px;
+		  font-weight: bold;
+		  margin-top: 40px;
+		  margin-bottom: 20px;
+		}
+		
+
+		h3 {
+		  font-size: 18px;
+		  font-weight: bold;
+		  margin-top: 20px;
+		  margin-bottom: 10px;
+		}
+		
+
+		label {
+		  display: block;
+		  font-weight: bold;
+		  margin-bottom: 10px;
+		}
+		
+
+		input[type="text"] {
+		  padding: 8px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  margin-bottom: 20px;
+		  width: 100%;
+		}
+		
+
+		button[type="submit"] {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  font-size: 16px;
+		  margin-top: 20px;
+		}
+		
+
+		button[type="submit"]:hover {
+		  background-color: #45a049;
+		}
+		
+
+		/* specific styles */
+		#tot {
+		  margin-top: 20px;
+		  margin-bottom: 40px;
+		  text-align: center;
+		}
+		
+
+		#first {
+		  margin-bottom: 40px;
+		}
+		
+
+		#cash, #card-details {
+		  display: none;
+		}
+		
+
+		#cash label, #card-details label {
+		  display: inline-block;
+		  margin-right: 10px;
+		}
+		
+
+		#one, #two {
+		  display: block;
+		  margin-bottom: 10px;
+		}
+		
+
+		#cash button[type="submit"], #card-details button[type="submit"] {
+		  margin-top: 40px;
+		}
+		
+
+		#error-message {
+		  color: red;
+		  font-weight: bold;
+		  margin-top: 20px;
+		}
+		#snackbar {
+		  visibility: hidden;
+		  min-width: 250px;
+		  margin-left: -125px;
+		  background-color: #333;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 2px;
+		  padding: 16px;
+		  position: fixed;
+		  z-index: 1;
+		  left: 50%;
+		  bottom: 30px;
+		  font-size: 17px;
+		}
+		
+
+		#snackbar.show {
+		  visibility: visible;
+		  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		}
+		
+
+		@-webkit-keyframes fadein {
+		  from {bottom: 0; opacity: 0;} 
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@keyframes fadein {
+		  from {bottom: 0; opacity: 0;}
+		  to {bottom: 30px; opacity: 1;}
+		}
+		
+
+		@-webkit-keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;} 
+		  to {bottom: 0; opacity: 0;}
+		}
+		
+
+		@keyframes fadeout {
+		  from {bottom: 30px; opacity: 1;}
+		  to {bottom: 0; opacity: 0;}
+		}
+		@@ -0,0 +1,130 @@
+		<!DOCTYPE html>
+		<html>
+		  <head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link href="pay.css" rel="stylesheet" />
+		    <title>Payment page</title>
+		  </head>
+		  <body>
+		    <div id="tot">
+		      <p id="total-amount"></p>
+		    </div>
+		
+
+		    <div id="first">
+		      <form>
+		
+
+		          <h2 style="margin-left: 40px">Payment Options</h2>
+		
+
+		          <label id="one">
+		            <input type="radio" name="payment" value="cash" />
+		            Cash on Delivery </label
+		          ><br />
+		          <label id="two">
+		            <input type="radio" name="payment" value="online" />
+		            Online Payment </label
+		          ><br />
+		
+
+		      </form>
+		    </div>
+		<div id="cash">
+		      <form onsubmit="submitOrder(event)">
+		
+
+		            <h3>Billing Address</h3>
+		            <label for="fname"><i class="fa fa-user"></i> Name</label>
+		            <input
+		              type="text"
+		              id="name"
+		              name="firstname"
+		
+
+		            /><br /><br />
+		            <label for="email"><i class="fa fa-envelope"></i> Bus number and Seat number </label>
+		            <input
+		              type="text"
+		              id="email"
+		              name="email"
+		            /><br /><br />
+		
+
+		            <label for="ph"><i class="fa fa-phone-o"></i> Phone number</label>
+		            <input
+		              type="text"
+		              id="phone"
+		              name="phone"
+		
+
+		            />
+		           <button type="submit" onclick="myFunction()" >Pay through cash</button>
+		           <div id="snackbar">Your order has been placed</div>
+		      </form>
+		</div>
+		
+
+		<div id="card-details">
+		            <form onsubmit="submitOrder(event)">
+		            <h3>Payment</h3>
+		
+
+		            <label for="cname">Name on Card</label>
+		            <input
+		              type="text"
+		              id="cname"
+		              name="cardname"
+		
+
+		            /><br /><br />
+		            <label for="ccnum">Card number</label>
+		            <input
+		              type="text"
+		              id="cnum"
+		              name="cardnumber"
+		
+
+		            /><br /><br />
+		            <label for="expmonth">Expiry Month</label>
+		            <input
+		              type="text"
+		              id="emon"
+		              name="expmonth"
+		
+
+		            /><br /><br />
+		
+
+		                <label for="expyear">Expiry Year</label>
+		                <input
+		                  type="text"
+		                  id="eyear"
+		                  name="expyear"
+		
+
+		                /><br /><br />
+		
+
+		                <label for="cvv">CVV</label>
+		                <input
+		                  type="text"
+		                  id="cvv"
+		                  name="cvv"
+		
+
+		                /><br /><br />
+		
+
+		
+
+		        <button type="submit" onclick="myFunction()">Place Order</button>
+		        <div id="snackbar">Your order has been placed</div>
+		      </form>
+		
+
+		 </div>
+		
+
+		
+
+		 <script src="pay.js"></script>
+		 <script>
+		    const paymentOptions = document.getElementsByName("payment");
+		  const cardDetails = document.getElementById("card-details");
+		  const cash = document.getElementById("cash");
+		
+
+		  // listen for changes to the payment options
+		  for (let i = 0; i < paymentOptions.length; i++) {
+		    paymentOptions[i].addEventListener("change", function () {
+		      // show card details section only if online payment is selected
+		      if (paymentOptions[i].value === "online") {
+		        cardDetails.style.display = "block";
+		      } else {
+		        cash.style.display = "block";
+		      }
+		    });
+		  }
+		 </script>
+		  </body>
+		</html>
+104 changes: 104 additions & 0 deletions 104 pay.js 
+ Show comments 
+Edit file Delete file 
+		@@ -0,0 +1,104 @@
+		  // get the payment radio buttons and the card details section
+		  const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const totalAmount = urlParams.get('total');
+		
+
+		// Display the total amount on the page
+		const totalAmountElement = document.getElementById('total-amount');
+		totalAmountElement.textContent = `Total Amount: ${totalAmount}`;
+		
+
+		function myFunction() {
+		  var x = document.getElementById("snackbar");
+		  x.className = "show";
+		  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 8000);
+		}
+		
+
+		const submitOrder = (event) => {
+		
+
+		    event.preventDefault();
+		    const name = document.getElementById('name').value;
+		    const email = document.getElementById('email').value;
+		    const phone = document.getElementById('phone').value;
+		    const paymentOption = document.querySelector('input[name="payment"]:checked');
+		
+
+		    // Validate form data
+		    if (!name.trim()) {
+		      alert('Please enter your name');
+		      return;
+		    }
+		
+
+		    if (!email.trim() ) {
+		      alert('Please enter a valid email address');
+		      return;
+		    }
+		
+
+		    if (!phone.trim()) {
+		      alert('Please enter your phone number');
+		      return;
+		    }
+		
+
+		    if (!paymentOption) {
+		      alert('Please select a payment option');
+		      return;
+		    }
+		
+
+		    if (paymentOption.value === 'online') {
+		      const cardName = document.getElementById('cname').value;
+		      const cardNumber = document.getElementById('cnum').value;
+		      const expMonth = document.getElementById('emon').value;
+		      const expYear = document.getElementById('eyear').value;
+		      const cvv = document.getElementById('cvv').value;
+		
+
+		      if (!cardName.trim()) {
+		        alert('Please enter the name on your card');
+		        return;
+		      }
+		
+
+		      if (!cardNumber.trim() || !cardNumber.match(/^\d{16}$/)) {
+		        alert('Please enter a valid 16-digit credit card number');
+		        return;
+		      }
+		
+
+		      if (!expMonth.trim()) {
+		        alert('Please enter the expiration month on your card');
+		        return;
+		      }
+		
+
+		      if (!expYear.trim() || !expYear.match(/^\d{4}$/)) {
+		        alert('Please enter a valid 4-digit expiration year on your card');
+		        return;
+		      }
+		
+
+		      if (!cvv.trim() || !cvv.match(/^\d{3}$/)) {
+		        alert('Please enter a valid 3-digit CVV on your card');
+		        return;
+		      }
+		    }
+		
+
+		    // Submit form data to Firebase Realtime Database
+		    const databaseURL = 'https://meal-89fd5-default-rtdb.asia-southeast1.firebasedatabase.app/users.json';
+		    const requestData = {
+		      name,
+		      email,
+		      phone,
+		      paymentOption: paymentOption.value
+		    };
+		
+
+		    fetch(databaseURL, {
+		      method: 'POST',
+		      body: JSON.stringify(requestData)
+		    })
+		    .then(response => {
+		      if (response.ok) {
+		        //alert('Your order has been placed!');
+		        location.reload();
+		      } else {
+		        throw new Error('Something went wrong');
+		      }
+		    })
+		    .catch(error => {
+		      console.error(error);
+		      alert('There was an error processing your order. Please try again later.');
+		    });
+		  };
+		
+
+Binary file added BIN +195 KB pizza.jpg 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+Binary file added BIN +1.29 MB prince.png 
+ Show comments 
+Edit file Delete file 
+Sorry, something went wrong. Reload?
+Sorry, we cannot display this file.
+Sorry, this file is invalid so it cannot be displayed.
+Viewer requires iframe. 
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		  <meta charset="UTF-8">
+		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <title>Signup</title>
+		  <style>
+		    * {
+		      box-sizing: border-box;
+		      font-family: Arial, sans-serif;
+		    }
+		
+
+		    body {
+		      background-color: #8e8383;
+		    }
+		
+
+		    form {
+		      background-color: #ffffff;
+		      padding: 20px;
+		      border-radius: 5px;
+		      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		      width: 50%;
+		
+
+		      margin: auto;
+		    }
+		
+
+		    h1{
+		      text-align: center;
+		  margin-top: 0;
+		    }
+		
+
+		    label {
+		      display: block;
+		      font-weight: bold;
+		      margin-bottom: 5px;
+		    }
+		
+
+		    input[type="text"],
+		    input[type="email"],
+		    input[type="password"] {
+		      width: 200%;
+		      padding: 10px;
+		      margin-bottom: 20px;
+		      border: none;
+		      border-radius: 4px;
+		      background-color: #f1f1f1;
+		    }
+		
+
+		    input[type="text"]:focus,
+		    input[type="email"]:focus,
+		    input[type="password"]:focus {
+		      background-color: #ffffff;
+		      border: 2px solid #555;
+		    }
+		
+
+		    button[type="submit"] {
+		      background-color: #4CAF50;
+		      color: #ffffff;
+		      padding: 12px 20px;
+		      border: none;
+		      border-radius: 4px;
+		      cursor: pointer;
+		      width: 100%;
+		      font-size: 16px;
+		    }
+		
+
+		    button[type="submit"]:hover {
+		      background-color: #45a049;
+		    }
+		
+
+		    .row {
+		      display: flex;
+		      flex-wrap: wrap;
+		      margin: 0 -10px;
+		    }
+		
+
+		    .col-50 {
+		      width: 50%;
+		      padding: 0 10px;
+		    }
+		
+
+		    /* Style the icons */
+		    .fa {
+		      margin-right: 5px;
+		    }
+		
+
+		  </style>
+		</head>
+		<body>
+		   <h1>Sign Up</h1>
+		  <form onsubmit="submitOrder(event)">
+		    <div class="row">
+		      <div class="col-50">
+		
+
+		        <label for="fname"><i class="fa fa-user"></i> Name</label>
+		        <input
+		          type="text"
+		          id="uname"
+		          name="firstname"
+		
+
+		        /><br /><br />
+		        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+		        <input
+		          type="email"
+		          id="email"
+		          name="email"
+		
+
+		        /><br /><br />
+		
+
+		        <label for="mob"><i class="fa fa-phone-o"></i> Mobile Number </label>
+		        <input
+		          type="text"
+		          id="mobile"
+		          name="phone"
+		
+
+		        /><br><br>
+		        <label for="pass"><i class="fa fa-phone-o"></i> Password</label>
+		        <input
+		          type="password"
+		          id="password"
+		          name="phone"
+		
+
+		        /><br><br>
+		        <label for="cpass"><i class="fa fa-phone-o"></i> Confirm Password</label>
+		        <input
+		          type="password"
+		          id="cpassword"
+		          name="phone"
+		
+
+		        /><br><br>
+		      </div>
+		    </div>
+		    <button type="submit">Register</button>
+		 </form>
+		<script>
+		  const submitOrder = (event) => {
+		    event.preventDefault();
+		    const name = document.getElementById('uname').value;
+		    const email = document.getElementById('email').value;
+		    const mobile = document.getElementById('mobile').value;
+		    const password= document.getElementById('password').value;
+		    const conpassword= document.getElementById('cpassword').value;
+		
+
+		    const databaseURL = 'https://meal-89fd5-default-rtdb.asia-southeast1.firebasedatabase.app/users.json';
+		    const requestData = {
+		      name,
+		      email,
+		      mobile,password,conpassword
+		
+
+		    };
+		
+
+		    fetch(databaseURL, {
+		      method: 'POST',
+		      body: JSON.stringify(requestData)
+		    })
+		    .then(response => {
+		      if (response.ok) {
+		        window.location.href = "login.html"; 
+		        alert('User has been registered');
+		      } else {
+		        throw new Error('Something went wrong');
+		      }
+		    })
+		    .catch(error => {
+		      console.error(error);
+		      alert('There was an error processing your request. Please try again later.');
+		    });
+		  };
+		
+
+		</script>
+		</body>
+		</html> 
+. 
+meal-on-travel – ./
+
+meal-on-travel.vercel.app
+
